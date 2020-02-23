@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My first form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+  <link rel="icon" type="image/png" href="images/fav2.png"/>
+<!--=============================================================================================== -->
+
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="main">
+		<div class="container-registration">
+			<div class="wrap-registration">
+				<form action="#" name="form" method="post" class="registration-form" onsubmit="return validateForm()">
+					<span class="title p-b-51">
+						Registration
+					</span>
+
+
+					<div class="form_inputs m-b-16">
+						<input class="input_100" id="firstname" type="text" name="first_name" maxlength="50" placeholder="First Name">
+						<span class="focus-input100"></span>
+						<div class="input-field-err-message-m-v m-b-19" id="error-first_name"></div>	
+					</div>
+					
+
+					<div class="form_inputs m-b-16">
+						<input class="input_100" id="lastname" type="text" name="last_name" maxlength="50" placeholder="Last Name">
+						<span class="focus-input100"></span>
+						<div class="input-field-err-message-m-v m-b-19" id="error-last_name"></div>
+					</div>
+
+					<div class="form_inputs m-b-16">
+						<input class="input_100" id="email" name="email" maxlength="50" placeholder="Email">
+						<span class="focus-input100"></span>
+						<div class="input-field-err-message-m-v m-b-19" id="error-email"></div>
+					</div>
+
+					<div class="form_inputs m-b-16">
+						<input class="input_100" id="password" type="password" name="password" placeholder="Password">
+						<span class="focus-input100"></span>
+						<div class="input-field-err-message-m-v m-b-19" id="error-password"></div>
+					</div>
+
+					<div class="form_inputs m-b-16">
+						<input class="input_100" id="confirmpassword" type="password" name="confirm_password" maxlength="32" placeholder="Comfirm Password">
+						<span class="focus-input100"></span>
+						<div class="input-field-err-message-m-v m-b-19" id="error-confirm_password"></div>
+					</div>
+
+
+					<div class="link_to_login m-b-17">
+						<p class="txt-1">Already registered?
+						 <a class="txt-2" href="#"> Login</a>
+						</p>
+					</div>
+
+					<div class="container-reg-form-btn m-b-18">
+
+
+						<input class="register-form-btn" type="submit" value="Send">
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+	<script src="./script.js"></script>
+
+</body>
+</html>
+
+
+
